@@ -1,0 +1,29 @@
+{
+  "name": "weekly-token-race-store",
+  "version": "0.1.0",
+  "description": "Weekly Token Race OrbitDB Store Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magiceddy/Weekly-Token-Race-Store.git"
+  },
+  "keywords": [
+    "OrbitDB",
+    "Hapi"
+  ],
+  "author": "Rinaldo Rossi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magiceddy/Weekly-Token-Race-Store/issues"
+  },
+  "homepage": "https://github.com/magiceddy/Weekly-Token-Race-Store#readme",
+  "dependencies": {
+    "hapi": "^17.5.4",
+    "ipfs-api": "^24.0.1",
+    "orbit-db": "^0.19.9"
+  }
+}
