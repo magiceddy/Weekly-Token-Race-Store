@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "node index.js"
+    "start": "./node_modules/.bin/nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,21 @@
   },
   "homepage": "https://github.com/magiceddy/Weekly-Token-Race-Store#readme",
   "dependencies": {
+    "boom": "^7.2.0",
+    "good": "^8.1.1",
+    "good-console": "^7.1.0",
+    "good-squeeze": "^5.1.0",
     "hapi": "^17.5.4",
+    "hapi-swagger": "^9.1.1",
+    "inert": "^5.1.0",
     "ipfs-api": "^24.0.1",
-    "orbit-db": "^0.19.9"
+    "joi": "^13.6.0",
+    "orbit-db": "^0.19.9",
+    "orbitdb-tokenstore": "^0.1.2",
+    "require-directory": "^2.1.1",
+    "vision": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
   }
 }
